@@ -1,0 +1,72 @@
+.formMain {
+    text-align: center;
+    color: #404040;
+    font-family: Roboto;
+
+}
+
+input {
+    margin: 10px;
+    width: 22rem;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    background: #FFF;
+    letter-spacing: 1.875px;
+    font-weight: 600;
+    color: #BBB9BC;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+}
+
+.lbl {
+    text-align: start;
+    margin-left: -226px;
+}
+
+.lbl2 {
+    text-align: start;
+    margin-left: -266px;
+}
+.lblDate{
+    text-align: start;
+    margin-left: -34px;
+}
+
+.inp{
+    width:50px;
+}
+.inp2{
+    width: 157px;
+}
+#dateCvv{
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    top: 220px;
+    left: 549px;
+}
+
+.dcv{
+    border: #404040 2px solid;
+    text-align: center;
+}
+ 
+#btn{
+    width: 389px;
+    height: 53px;
+    border-radius: 6px;
+    background: #220930;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
+}
+ 
+/* div{
+    border: 2px solid red;
+} */
