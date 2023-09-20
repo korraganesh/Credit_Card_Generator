@@ -1,7 +1,11 @@
 .formMain {
+    position: relative;
     text-align: center;
     color: #404040;
     font-family: Roboto;
+    margin: 0px auto;
+    margin-top: 150px;
+    left: -100px;
 
 }
 
@@ -38,22 +42,19 @@ input {
     width:50px;
 }
 .inp2{
-    width: 157px;
+    width: 150px;
 }
 #dateCvv{
     display: flex;
     justify-content: center;
     text-align: center; 
-    top: 220px;
-    left: 549px;
+    
 }
 
-.dcv{
-    border: #404040 2px solid;
-    text-align: center;
-}
- 
+
 #btn{
+    position: relative;
+    top: -28px;
     width: 389px;
     height: 53px;
     border-radius: 6px;
@@ -66,7 +67,28 @@ input {
     cursor: pointer;
     border: none;
 }
- 
-/* div{
-    border: 2px solid red;
-} */
+
+.validation{
+    color: red;
+    font-size: 14px;
+    top: -8px;
+    left: -115px;
+    position: relative;
+}
+#validation1{
+    left: -125px;
+}
+
+#validation2{
+    left: -148px;
+}
+
+
+#validation3{
+    left: -50px;
+    top: -27px;
+}
+#validation4{
+    left: 59px;
+    top: -47px;
+}

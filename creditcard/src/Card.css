@@ -1,0 +1,83 @@
+
+
+.bg{
+    width: 500px;
+    height: 100vh;
+    z-index: -6;
+    position: absolute;
+}
+
+#frontcard{
+    position: relative;
+    width: 445px;
+    top: 60px;
+    left: 180px;
+}
+
+#backcard{
+    position: relative;
+    width: 445px;
+    top: 110px;
+    left: 260px;
+}
+
+.card-text{
+    color: white;
+    letter-spacing: 3px;
+}
+.cardnumberdisplay{
+    position:relative ;
+    top: -170px;
+    left: 45px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 5.6px;
+}
+
+.namedisplay{
+    position:relative;
+    font-size: 15px;
+    top: -98px;
+    left: 47px;
+    text-transform: uppercase;
+
+}
+
+.expdatedisplay{
+    position: relative;
+    top: -150px;
+    left: 340px;
+    font-size: 17px;
+}
+
+.dateyydisplay{
+    position: relative;
+    top: -123px;
+    left: 378px;
+    font-size: 17px;
+}
+
+.cvv-text{
+    color: #FFF;
+}
+
+.cvvdisplay{
+    position: relative;
+    top: -144px;
+    left: 360px;
+    font-size: 20px;
+}
+
+.whitecricle{
+    position: relative;
+    top: -210px;
+    left: 40px;
+}
+
+.cricle2{
+    position: relative;
+    top: -220px;
+    left: 55px;
+}
